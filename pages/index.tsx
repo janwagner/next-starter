@@ -7,10 +7,11 @@ const HomePage: NextPage = () => {
     <>
       <NextSeo title='Next.js Starter' description='Bootstrap your next.js projects!' />
       <main className='grid h-screen place-items-center'>
-        <div className='text-center'>
-          <h1>Next Starter</h1>
-          <h2>Bootstrap your next.js projects!</h2>
-        </div>
+        <section className='text-center'>
+          <h1>Next.js Starter Kit</h1>
+          <h2>Bootstrap your next projects!</h2>
+          <p>Typescript, TailwindCSS, sass and more...</p>
+        </section>
       </main>
     </>
   )
