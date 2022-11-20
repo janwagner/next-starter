@@ -3,7 +3,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xs: { min: '0', max: '640px' },
+        xs: { min: '0', max: '480px' },
+        mobile: { min: '0', max: '480px' },
+        tablet: { min: '480px', max: '768px' },
+        handheld: { min: '0', max: '768px' },
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
@@ -11,11 +14,11 @@ module.exports = {
     },
     theme: {
       screens: {
-        sm: '640px',
+        sm: '480px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',
-        '2xl': '1536px',
+        '2xl': '1680px',
       },
       container: {
         center: true,
