@@ -20,9 +20,6 @@ module.exports = {
         xl: '1280px',
         '2xl': '1680px',
       },
-      container: {
-        center: true,
-      },
     },
   },
   plugins: [],
