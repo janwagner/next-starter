@@ -5,7 +5,7 @@ const MyDocument: FunctionComponent = () => (
   <Html>
     <Head>
       <html lang='en' />
-      <link rel='icon' href='/favicon.ico'></link>
+      <link rel='icon' href='/favicon.ico' />
     </Head>
     <body>
       <Main />
