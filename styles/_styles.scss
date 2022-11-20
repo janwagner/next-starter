@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-gray-900;
+}
+
+h1 {
+  @apply my-6 text-4xl xs:text-3xl;
+}
+
+h2 {
+  @apply my-5 text-3xl;
+}
+
+h3 {
+  @apply my-4 text-2xl;
+}
+
+h4 {
+  @apply my-3 text-xl;
+}
+
+h5 {
+  @apply my-2 text-lg;
+}
+
+h6 {
+  @apply my-1 text-lg;
+}
+
+b {
+  @apply font-bold;
+}
+
+p {
+  @apply xs:text-sm;
+
+  &:not([class*='mt-']):not([class*='my-']) {
+    @apply mt-5;
+  }
+
+  &:not([class*='mb-']):not([class*='my-']) {
+    @apply mb-5;
+  }
+}
+
+ul {
+  @apply list-outside list-disc;
+}
+
+ol {
+  @apply list-outside list-decimal;
+}
+
+ul,
+ol {
+  @apply ml-7;
+
+  li {
+    @apply pl-3;
+  }
+}
