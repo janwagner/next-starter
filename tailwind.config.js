@@ -7,6 +7,7 @@ module.exports = {
         mobile: { min: '0', max: '480px' },
         tablet: { min: '480px', max: '768px' },
         handheld: { min: '0', max: '768px' },
+        '3xl': { min: '1920px' },
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
