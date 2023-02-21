@@ -10,6 +10,7 @@
     "lint": "next lint",
     "lint-fix": "next lint --fix",
     "lint-build": "next lint && next build",
+    "format-code": "prettier --write \"./**/*.{tsx,json}\"",
     "precommit": "npm run lint-build",
     "validate": "npm run precommit",
     "prepare": "husky install"
