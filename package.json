@@ -33,7 +33,7 @@
     "eslint-config-next": "13.2.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint": "8.34.0",
+    "eslint": "8.35.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.21",
     "prettier-plugin-tailwindcss": "^0.2.3",
