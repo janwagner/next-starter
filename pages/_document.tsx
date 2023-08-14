@@ -2,9 +2,8 @@ import React, { FunctionComponent } from 'react'
 import { Head, Html, Main, NextScript } from 'next/document'
 
 const MyDocument: FunctionComponent = () => (
-  <Html>
+  <Html lang='en'>
     <Head>
-      <html lang='en' />
       <link rel='icon' href='/favicon.ico' />
     </Head>
     <body>
