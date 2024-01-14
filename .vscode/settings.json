@@ -10,6 +10,11 @@
     }
   },
   "css.customData": [".vscode/css_custom_data.json"],
-  "editor.formatOnSave": false,
-  "prettier.configPath": ".prettierrc.json"
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".prettierrc.json",
+  "[typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  }
 }
