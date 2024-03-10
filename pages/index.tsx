@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import { NextSeo } from 'next-seo'
 import React from 'react'
+import Seo from '../components/scaffolding/Seo'
 
-const HomePage: NextPage = () => (
+const IndexPage: NextPage = () => (
   <>
-    <NextSeo title='Next.js Starter' description='Bootstrap your next.js projects!' />
+    <Seo />
     <main className='grid h-screen place-items-center'>
       <section className='text-center'>
         <h1>Next.js Starter Kit</h1>
@@ -15,4 +15,4 @@ const HomePage: NextPage = () => (
   </>
 )
 
-export default HomePage
+export default IndexPage
