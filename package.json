@@ -9,8 +9,6 @@
     "start": "next start",
     "check": "biome check --write .",
     "check-build": "npm run check && next build",
-    "precommit": "npm run check-build",
-    "validate": "npm run precommit",
     "prepare": "husky"
   },
   "dependencies": {
