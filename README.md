@@ -28,6 +28,5 @@ This Starter includes:
 - ⚙️ [Autoprefixer](https://github.com/postcss/autoprefixer) — PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
 - 🧁 [TailwindCSS v3](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
 - ✨ [TypeScript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- 🦋 [Prettier](https://prettier.io/) — An opinionated code formatter.
-- 📏 [ESLint](https://eslint.org/) — Find and fix problems in your JavaScript code.
+- 📏 [Biome](https://biomejs.dev/) — Find and fix problems in your JavaScript code.
 - 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more 🐶 woof!

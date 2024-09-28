@@ -1,20 +1,15 @@
 {
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    }
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
-  "[typescriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    }
-  },
-  "css.customData": [".vscode/css_custom_data.json"],
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
-  "prettier.configPath": ".prettierrc.json",
-  "[typescript][typescriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    }
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
   }
 }
