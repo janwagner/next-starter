@@ -51,5 +51,8 @@
       "enabled": true,
       "trailingCommas": "none"
     }
+  },
+  "files": {
+    "ignore": ["styles/**/*.scss"]
   }
 }
