@@ -13,33 +13,33 @@
     "format-code": "prettier --write \"./**/*.{tsx,json}\"",
     "precommit": "npm run lint-build",
     "validate": "npm run precommit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "14.2.13",
-    "next-seo": "^6.5.0",
+    "next-seo": "^6.6.0",
     "next-sitemap": "^4.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "22.5.4",
+    "@types/node": "22.7.4",
     "@types/react": "18.3.10",
     "@types/react-dom": "18.3.0",
     "@types/react-slick": "^0.23.13",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "8.57.1",
+    "eslint": "^8.0.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "14.2.13",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "husky": "^9.0.0",
-    "postcss": "^8.4.41",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "husky": "^9.1.6",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.6",
-    "sass": "^1.77.8",
-    "tailwindcss": "^3.4.10",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "sass": "^1.79.4",
+    "tailwindcss": "^3.4.13",
     "typescript": "5.6.2"
   }
 }
