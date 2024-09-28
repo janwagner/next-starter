@@ -7,7 +7,8 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "check": "biome check --write .",
+    "check": "biome check --write",
+    "check-fix": "npm run check --fix --unsafe",
     "check-build": "npm run check && next build",
     "prepare": "husky"
   },
