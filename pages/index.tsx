@@ -1,5 +1,5 @@
-import type { NextPage } from "next";
-import Seo from "../components/scaffolding/Seo";
+import type { NextPage } from 'next'
+import Seo from '../components/scaffolding/Seo'
 
 const IndexPage: NextPage = () => (
   <>
@@ -12,6 +12,6 @@ const IndexPage: NextPage = () => (
       </section>
     </main>
   </>
-);
+)
 
-export default IndexPage;
+export default IndexPage
