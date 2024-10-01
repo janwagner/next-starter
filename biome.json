@@ -30,6 +30,16 @@
         "useKeyWithClickEvents": "off",
         "noAutofocus": "warn",
         "noSvgWithoutTitle": "off"
+      },
+      "style": {
+        "useSelfClosingElements": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "useConst": {
+          "level": "warn",
+          "fix": "unsafe"
+        }
       }
     }
   },
