@@ -23,7 +23,7 @@
       "suspicious": {
         "noConsoleLog": "warn",
         "noExplicitAny": "warn",
-        "noArrayIndexKey": "warn"
+        "noArrayIndexKey": "off"
       },
       "a11y": {
         "noLabelWithoutControl": "off",

@@ -14,23 +14,23 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "14.2.13",
+    "next": "15.0.1",
     "next-seo": "^6.6.0",
     "next-sitemap": "^4.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.2",
-    "@types/node": "22.7.4",
-    "@types/react": "18.3.11",
-    "@types/react-dom": "18.3.0",
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "22.8.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
     "@types/react-slick": "^0.23.13",
     "autoprefixer": "^10.4.20",
     "husky": "^9.1.6",
     "postcss": "^8.4.47",
-    "sass": "^1.79.4",
-    "tailwindcss": "^3.4.13",
-    "typescript": "5.6.2"
+    "sass": "^1.80.4",
+    "tailwindcss": "^3.4.14",
+    "typescript": "5.6.3"
   }
 }
