@@ -1,6 +1,8 @@
+@use "sass:meta";
+
 // the right order counts
 @tailwind base;
-@import 'styles';
-@import 'fonts';
+@include meta.load-css('styles');
+@include meta.load-css('fonts');
 @tailwind components;
 @tailwind utilities;
