@@ -1,6 +1,6 @@
 ## Next.js Starter Kit
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project using the modern **App Router** structure.
 
 ## 🚶🏼 Getting Started
 
@@ -21,12 +21,10 @@ npm run dev
 This Starter includes:
 
 - ⚛️ [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- ⚡️ [Next.js](https://nextjs.org/) - The React Framework for Production
-- 🔎 [Next SEO](https://github.com/garmeeh/next-seo) - Next SEO is a plugin that makes managing your SEO easier in Next.js projects.
+- ⚡️ [Next.js](https://nextjs.org/) (App Router) - The React Framework for Production
 - 🚦 [Next Sitemap](https://github.com/iamvishnusankar/next-sitemap) - Add a SEO sitemap to your Next.js projects.
-- 🎉 [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-- ⚙️ [Autoprefixer](https://github.com/postcss/autoprefixer) — PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
+- ⚙️ [PostCSS](https://github.com/postcss/postcss) — PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
 - 🧁 [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
 - ✨ [TypeScript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- 📏 [Biome](https://biomejs.dev/) — Find and fix problems in your JavaScript code.
+- 📏 [Biome](https://biomejs.dev/) — Find and fix problems in your JavaScript/TypeScript code.
 - 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more 🐶 woof!

@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
+/**** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
-  sassOptions: {
-    silenceDeprecations: ['legacy-js-api'],
+  reactStrictMode: true,
+  experimental: {
+    appDir: true,
   },
 }
 

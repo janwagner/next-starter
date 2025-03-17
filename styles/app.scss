@@ -1,8 +1,0 @@
-@use "sass:meta";
-
-// the right order counts
-@tailwind base;
-@include meta.load-css('styles');
-@include meta.load-css('fonts');
-@tailwind components;
-@tailwind utilities;
