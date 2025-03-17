@@ -38,11 +38,11 @@ b {
 p {
   @apply xs:text-sm;
 
-  &:not([class*='mt-']):not([class*='my-']) {
+  &:not([class*="mt-"]):not([class*="my-"]) {
     @apply mt-5;
   }
 
-  &:not([class*='mb-']):not([class*='my-']) {
+  &:not([class*="mb-"]):not([class*="my-"]) {
     @apply mb-5;
   }
 }
