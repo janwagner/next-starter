@@ -9,7 +9,8 @@
       "recommended": true,
       "complexity": {
         "useSimplifiedLogicExpression": "warn",
-        "noUselessFragments": "warn"
+        "noUselessFragments": "warn",
+        "noUselessCatch": "off"
       },
       "nursery": {
         "useSortedClasses": "warn"
@@ -28,7 +29,7 @@
       "a11y": {
         "noLabelWithoutControl": "off",
         "useKeyWithClickEvents": "off",
-        "noAutofocus": "warn",
+        "noAutofocus": "off",
         "noSvgWithoutTitle": "off"
       },
       "style": {
@@ -48,9 +49,9 @@
     "formatWithErrors": true,
     "attributePosition": "auto",
     "indentStyle": "space",
-    "indentWidth": 2,
+    "indentWidth": 4,
     "lineEnding": "lf",
-    "lineWidth": 120
+    "lineWidth": 135
   },
   "vcs": {
     "enabled": true,
@@ -71,10 +72,16 @@
   "json": {
     "formatter": {
       "enabled": true,
-      "trailingCommas": "none"
+      "trailingCommas": "none",
+      "indentWidth": 2
     }
   },
-  "files": {
-    "ignore": ["styles/**/*.scss"]
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "indentWidth": 2,
+      "indentStyle": "space",
+      "quoteStyle": "single"
+    }
   }
 }

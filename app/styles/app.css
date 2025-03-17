@@ -1,6 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@import "./styles";
-@import "./fonts";
+@import './styles';
+@import './fonts';
 
 @config "../../tailwind.config.js";
