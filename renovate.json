@@ -3,18 +3,8 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "automerge": true,
-      "matchPackageNames": ["/lint/", "/prettier/"]
-    },
-    {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "automerge": true
-    },
-    {
-      "extends": ["monorepo:ionic-native"],
-      "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
     }
   ]
