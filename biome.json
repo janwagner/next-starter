@@ -1,8 +1,6 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
@@ -22,9 +20,9 @@
         "useExhaustiveDependencies": "warn"
       },
       "suspicious": {
-        "noConsoleLog": "warn",
         "noExplicitAny": "warn",
-        "noArrayIndexKey": "off"
+        "noArrayIndexKey": "off",
+        "noConsole": { "level": "warn", "options": { "allow": ["log"] } }
       },
       "a11y": {
         "noLabelWithoutControl": "off",
@@ -40,7 +38,16 @@
         "useConst": {
           "level": "warn",
           "fix": "unsafe"
-        }
+        },
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
       }
     }
   },
@@ -83,5 +90,8 @@
       "indentStyle": "space",
       "quoteStyle": "single"
     }
+  },
+  "files": {
+    "includes": ["**", "!.*/**", "!out/**"]
   }
 }
